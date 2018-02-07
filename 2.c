@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-int n;
+int num;
 clrscr();
 printf(enter the value:");
-scanf("%d",&n);
-if(n%2==0)
+scanf("%d",&num);
+if(num%2==0)
 {
 printf("the given number is even");
 }
