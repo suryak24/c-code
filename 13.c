@@ -13,7 +13,7 @@ break;
 }
 }
 if (flag==0)
-printf("%d is a prime number.",num);
+printf("yes");
 else
-printf("%d is not a prime number.",num);
+printf("no");
 }
