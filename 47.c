@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void  main()
 {
 int n,m[100],i,avg,small=0,high;
 printf("Enetr the n values:");
@@ -24,6 +24,4 @@ if (high>m[i])
 }
 }
 printf("small:%d\n",high);
-
-return 0;
 }
