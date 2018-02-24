@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-char s[100],i,count,n;
+char s[1000],i,count,n;
 printf("enter the limit\n");
 scanf("%d",&n);
 printf("Enter the string ");
