@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int i,flag=0,num;
+int i,flag=0,n;
 clrscr();
 printf("Enter the number:");
-scanf("%d",&num);
-for(i=2;i<=num/2;i++)
+scanf("%d",&nn);
+for(i=2;i<=n/2;i++)
 {
- if(num%i==0)
+ if(n%i==0)
  {
  flag=1;
  break;
